@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1091022424032",
+    "firebase_url": "https://dawsonstudentapp.firebaseio.com",
+    "project_id": "dawsonstudentapp",
+    "storage_bucket": "dawsonstudentapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091022424032:android:69028075c018c039",
+        "android_client_info": {
+          "package_name": "cs.dawson.dawsonelectriccurrents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091022424032-g2jtmo421k3r7n283flgqeq6gj8cn5h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQMXGeUhe7N82zuqNSsGKO3th-u6WhdL4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

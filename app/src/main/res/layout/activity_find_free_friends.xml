@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    tools:context="cs.dawson.dawsonelectriccurrents.FindFreeFriends">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/daySelection" />
+
+        <Spinner
+            android:id="@+id/daySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="0.3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/startTimePickerText" />
+
+        <Spinner
+            android:id="@+id/timeStartSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="0.3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/endTimePickerText" />
+
+        <Spinner
+            android:id="@+id/endTimeSpinner"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:onClick="startFindFriendBreaks"
+            app:srcCompat="@drawable/search"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</LinearLayout>

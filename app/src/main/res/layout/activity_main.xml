@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cs.dawson.dawsonelectriccurrents.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/dawsonLogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:adjustViewBounds="true"
+                android:onClick="startDawsonPage"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/dawsonlogo" />
+
+            <ImageView
+                android:id="@+id/teamLogo"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.5"
+                android:adjustViewBounds="true"
+                android:onClick="startAbout"
+                android:scaleType="center"
+                app:srcCompat="@drawable/elecurrents" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:layout_weight="0.2"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/classCancelledBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/classcancellation"
+                    android:onClick="startActivityIntent"/>
+
+
+                <ImageButton
+                    android:id="@+id/findTeacherBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/findteacher"
+                    android:onClick="startActivityIntent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:layout_weight="0.2"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/addCalendarBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/addcalendar"
+                    android:onClick="startActivityIntent" />
+
+                <ImageButton
+                    android:id="@+id/notesBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/notes"
+                    android:onClick="startActivityIntent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:layout_weight="0.2"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/weatherBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/weather"
+                    android:onClick="startActivityIntent" />
+
+                <ImageButton
+                    android:id="@+id/academicCalendarBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/academiccalendar"
+                    android:onClick="startActivityIntent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:layout_weight="0.2"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/findFriendBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/findfriends"
+                    android:onClick="startActivityIntent" />
+
+                <ImageButton
+                    android:id="@+id/findFreeFriendBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/findfreefriends"
+                    android:onClick="startActivityIntent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/currentTempTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:text="@string/currentTempText" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

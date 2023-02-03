@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu" android:title="@string/menuText" app:showAsAction="ifRoom" >
+        <menu>
+            <item android:id="@+id/about" android:title="@string/aboutMenuText"/>
+            <item android:id="@+id/dawson" android:title="@string/dawsonMenuText" />
+            <item android:id="@+id/settings" android:title="@string/settingsMenuText" />
+        </menu>
+    </item>
+</menu>

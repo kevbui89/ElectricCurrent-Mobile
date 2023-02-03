@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    tools:context="cs.dawson.dawsonelectriccurrents.FIndBreakActivity">
+
+    <TextView
+        android:id="@+id/noFriendsBreaks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"/>
+
+    <ListView
+        android:id="@+id/listViewFriends"
+        android:layout_width="match_parent"
+        android:layout_height="522dp"
+        android:orientation="vertical"
+        android:textColor="#98AFC7"/>
+
+</LinearLayout>

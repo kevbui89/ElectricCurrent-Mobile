@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">DawsonElectricCurrents</string>
+    <string name="menuText">Menu</string>
+    <string name="aboutMenuText">About</string>
+    <string name="dawsonMenuText">Dawson</string>
+    <string name="settingsMenuText">Settings</string>
+    <string name="classCancelText">Class Cancellations</string>
+    <string name="findTeacherText">Find a Teacher</string>
+    <string name="addCalendarText">Add to Calendar</string>
+    <string name="notesText">Notes</string>
+    <string name="deleteNoteBtnText">Delete Note</string>
+    <string name="enterNoteText">Enter your note here!</string>
+    <string name="errorNotesText">Please enter a note in the field that is more than 10 characters!</string>
+    <string name="addNoteText">Add Note</string>
+    <string name="weatherText">Weather</string>
+    <string name="academicCalText">Academic Calendar</string>
+    <string name="currentTempText">Current Temp</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="email">Email</string>
+    <string name="userpw">Password</string>
+    <string name="lastUpdated">Last updated</string>
+    <string name="editSettings">Edit Settings</string>
+    <string name="save">Save</string>
+    <string name="currSettings">Current Settings</string>
+    <string name="exitSettings">Exit Settings</string>
+    <string name="exitDialog">Do you want to exit the settings?</string>
+    <string name="discard">Discard</string>
+    <string name="heroku">Heroku</string>
+    <string name="findFriend">Find Friends</string>
+    <string name="findFreeFriendsText">Find Free Friends</string>
+    <string name="weatherSearch">Weather Search</string>
+    <string name="weatherapi">Weather API</string>
+    <string name="citylabel">Please enter the city and select the country you wish to see the forecast of</string>
+    <string name="cityDefault" translatable="false">Montreal</string>
+    <string name="uvindexlabel">UV index</string>
+    <string name="dayforecastlabel">5 day forecast</string>
+    <string name="maxText" translatable="false">Maxime Lacasse</string>
+    <string name="aleText" translatable="false">Alessandro Ciotola</string>
+    <string name="hannahText" translatable="false">Hannah Ly</string>
+    <string name="kevinText" translatable="false">Kevin Bui</string>
+    <string name="aboutUs">Welcome to the Dawson Electric Currents team\'s Dawson Friend Finder application. We are students on their
+        3rd year in Computer Science at Dawson. The goal of this project was for us to code an application that could be used by Dawson students
+        to find information about classes, teachers and their friends who are also using this app!</string>
+    <string name="aleInfo">3rd year Comp sci student that enjoys CS:GO.</string>
+    <string name="maxInfo">I just want to make money and live a rich life.</string>
+    <string name="hannahInfo">President of the gaming club and enjoys eating.</string>
+    <string name="kevinInfo">3rd year Comp sci student that enjoys weightlifting and making fun of Alessandro Ciotola :).</string>
+    <string name="five_day_forecast">Five day forecast</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="weather_condition">Weather condition</string>
+    <string name="weather_description">Weather description</string>
+    <string name="main_temperature">Main Temperature</string>
+    <string name="mininimum_temperature">Mininimum Temperature</string>
+    <string name="maximum_temperature">Maximum Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="uv_index">UV index</string>
+    <string name="academicYear">Enter a year</string>
+    <string name="winter">Winter Semester</string>
+    <string name="fall">Fall Semester</string>
+    <string name="loadButton">Load</string>
+    <string name="acadCalendar">Academic Calendar</string>
+    <string name="invalidYear">Invalid Year!</string>
+    <string name="noInput">No semester was selected.</string>
+    <string name="similar">Similar match</string>
+    <string name="exact">Exact match</string>
+    <string name="search">Search</string>
+    <string name="teacherInfo">Teacher\'s Information</string>
+    <string name="name">Name</string>
+    <string name="office">Office</string>
+    <string name="local">Local</string>
+    <string name="website">Website</string>
+    <string name="bio">Biography</string>
+    <string name="position">Position</string>
+    <string name="department">Department</string>
+    <string name="sector">Sector</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="eventActivityTitle">Add a new event</string>
+    <string name="eventTitleText">Event Title:</string>
+    <string name="eventTitleHint">Click here to enter the event\'s title.</string>
+    <string name="datePickerText">Date:</string>
+    <string name="datePickerHint">Click here to enter the event\'s date.</string>
+    <string name="startTimePickerText">Start time:</string>
+    <string name="startTimePickerHint">Click here to enter the event\'s start time.</string>
+    <string name="endTimePickerText">End time:</string>
+    <string name="endTimePickerHint">Click here to enter the event\'s end time.</string>
+    <string name="addEventBtnText">Add event</string>
+    <string name="teacherNames">Teachers</string>
+    <string name="no">No</string>
+    <string name="invalidInput">No selection and/or missing a name/lastname field.</string>
+    <string name="noteacherfound">No teachers were found.</string>
+    <string name="Settings">Settings</string>
+    <string name="from">From</string>
+    <string name="sendemail">Send Email</string>
+    <string name="call">Call</string>
+    <string name="noCancelledClasses">No Cancelled Classes!</string>
+    <string name="cancelledClassUrl">https://www.dawsoncollege.qc.ca/wp-content/external-includes/cancellations/feed.xml</string>
+    <string name="cancelledTitle">Title:</string>
+    <string name="cancelledTeacher">Teacher:</string>
+    <string name="cancelledCourse">Course number:</string>
+    <string name="cancelledDate">Date:</string>
+    <string name="error">Error</string>
+    <string name="invalid">Invalid Input</string>
+    <string name="ok">Ok</string>
+    <string name="searchFriendCourse">Search Friend Courses</string>
+    <string name="notAvailableText">This friend is not available!</string>
+    <string name="availableText">This friend is currently in: </string>
+    <string name="daySelection">Select day: </string>
+    <string name="noFriends">No friends</string>
+    <string name="noFriendsCourse">No friends in this course!</string>
+    <string name="nofriendsonbreak">No friends on break at current time searched</string>
+    <string name="currentweather">Current Weather</string>
+    <string name="cityhint">City</string>
+    <string name="teamMates">Partenaires</string>
+    <string name="courseID">420-518-DW</string>
+    <string name="deleteNote">To delete a note, hold and press the note.</string>
+
+</resources>
